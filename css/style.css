@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap');
+
+:root {
+  --color-negro: #282d33;
+  --menu-hover: #ec3642;
+  --color-rojo: #ec3642;
+  --fondo-header: #212121;
+  --fondo-footer: #212121;
+  --color-footer: #ccc;
+}
+
+body {
+  background-color: #252525;
+  font-size: 14px;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.titulos {
+  font-family: 'Catamaran', sans-serif;
+}
+
+header {
+  background-color: var(--fondo-header);
+}
+
+footer {
+  background-color: var(--fondo-footer);
+  color: var(--color-footer);
+  padding: 20px 0;
+}
+
+#heroslides .carousel-caption {
+  text-align: left;
+}
+
+#heroslides .carousel-caption h5 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: none;
+  display: inline-block;
+  padding: 10px 20px;
+  box-shadow: 0px 0px 0px 2px #fff;
+}
+
+#heroslides .carousel-caption h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#heroslides .carousel-caption a.btn {
+  background-color: #ec3642;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#intro .about-column {
+  background: #000000;
+  color: #ffffff;
+}
+
+#intro h3 {
+  font-size: 18px;
+}
+
+#intro h2 {
+  font-size: 24px;
+}
+
+#intro h3,
+#intro h2,
+#intro p {
+  color: #ffffff;
+}
+
+#intro .btn {
+  display: inline-block;
+  background-color: #ec3642;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+#intro {
+  padding-top: 20px;
+}
+
+#intro .btn:hover {
+  background-color: #ec3642;
+  color: #ffffff;
+}
+
+#intro img {
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+}
+
+#intro .about-column .intro-content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-bottom: 1px solid #ffffff;
+}
+
+#intro .about-column .intro-content h2 {
+  margin-top: 10px;
+}
+
+#intro .about-column .divider {
+  margin-top: 10px;
+  border-bottom: 1px solid #ffffff;
+}
+
+#products .products-column {
+  background-color: #161616;
+  color: #ffffff;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+#products .title-box {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 20px;
+color: #ffffff;
+}
+
+#products .title-container {
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid #ffffff;
+}
+
+
+#products .products-column img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+
+#products .products-column .product-info {
+  margin-top: 10px;
+  border-top: 0px solid #000000;
+}
+
+.cta {
+    position: relative;
+    text-align: left;
+    height: 400px; 
+    overflow: hidden;
+    background-color: #ec3642; 
+  }
+
+  .bg-parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('"../img/bg-parallax.png"');
+    background-size: cover;
+    background-position: center;
+    opacity: 50%; 
+  }
+
+  
+.cta {
+  position: relative;
+  background-image: url('../img/bg-parallax.png');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: #ec3642;
+  opacity: 50; /* Ajusta la opacidad según tus preferencias */
+  padding: 60px 0 40px; /* Agrega padding superior de 60px */
+}
+
+
+.cta-content {
+  color: #ffffff;
+  text-align: left; 
+  padding-left: 20px; 
+}
+
+.cta-content h2 {
+  font-size: 24px;
+  margin: 0 0 10px 0;
+}
+
+.cta-content {
+  color: #ffffff;
+  text-align: left; 
+  padding-left: 40px; 
+}
+
+.cta-content button {
+  background-color: transparent;   color: #ffffff; 
+  border: 2px solid #ffffff; 
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+</style>
+
+#products {
+  background-color: #282d33;
+  color: #ffffff;
+  padding: 40px;
+}
+
+#products .title-box {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
